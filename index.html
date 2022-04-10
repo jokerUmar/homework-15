@@ -9,17 +9,27 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&family=Fraunces:wght@400;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
   <header>
     <nav class="container nav">
       <img src="./img/coffee-logo.png" class="logo-coffee" width="204" height="24" alt="">
 
-      <ul class="nav-list">
+      <label for="check">
+
+        <input type="checkbox" id="check">
+        <i class="fas fa-times"></i>
+        <i class="fas fa-bars"></i>
+
+      <ul class="nav-list ">
         <li class="nav-item"><a href="#">HOME</a></li>
         <li class="nav-item"><a href="#">ABOUT US</a></li>
         <li class="nav-item"><a href="#">Create your plan</a></li>
       </ul>      
+    
+    </label>
+
     </nav>
   </header>
   
@@ -101,20 +111,26 @@
 
       <div class="choose-card">
         <img src="./img/coffee-bean.png" alt="">
+        <span>
         <h1 class="collect__title choose_card-title" >Best quality</h1>
         <p class="collect__text choose_card-text">Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
+      </span>
       </div>
 
       <div class="choose-card">
         <img src="./img/gift.png" alt="">
-        <h1 class="collect__title choose_card-title" >Best quality</h1>
-        <p class="collect__text choose_card-text">Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
+        <span>
+        <h1 class="collect__title choose_card-title" >Exclusive benefits</h1>
+        <p class="collect__text choose_card-text">Special offers and swag when you subscribe, including 30% off your first shipment.</p>
+      </span>
       </div>
       
       <div class="choose-card">
         <img src="./img/shipping.png" alt="">
-        <h1 class="collect__title choose_card-title" >Best quality</h1>
-        <p class="collect__text choose_card-text">Discover an endless variety of the world’s best artisan coffee from each of our roasters.</p>
+        <span>
+        <h1 class="collect__title choose_card-title" >Free shipping</h1>
+        <p class="collect__text choose_card-text">We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>
+        </span>
       </div>
       
 
@@ -160,7 +176,6 @@
         
         <h1 class="content-card-title">03</h1>
         <b class="content-card-bold" >Receive and enjoy!</b>
-  
         <p class="content-card-text">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
   
         </div>
@@ -175,12 +190,13 @@
   <footer class="footer-coffee container">
     <div class="footer-box">
     <img src="./img/Group 5.png" class="logo-coffee footer-logo" width="204" height="24" alt="">
+    <label for="">
       <ul class="footer-list">
         <li class="footer-item"><a href="#">HOME</a></li>
         <li class="footer-item"><a href="#">ABOUT US</a></li>
         <li class="footer-item"><a href="#">Create your plan</a></li>
       </ul>
-
+    </label>
       <img src="./img/Path (1).png" class="footer-img" width="24" height="24" alt="">
       <img src="./img/Path.png" class="footer-img" width="24" height="24" alt="">
       <img src="./img/Shape.png" class="footer-img" width="24" height="24" alt="">
